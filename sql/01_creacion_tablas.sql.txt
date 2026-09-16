@@ -1,0 +1,43 @@
+CREATE DATABASE IF NOT EXISTS sgc_ctc;
+USE sgc_ctc;
+
+CREATE TABLE persona (
+    documento INT PRIMARY KEY,
+    apellido VARCHAR(50) NOT NULL,
+    nombre VARCHAR(50) NOT NULL,
+    jerarquia VARCHAR(50),
+    activo BOOLEAN
+);
+
+CREATE TABLE curso (
+    idCurso INT PRIMARY KEY,
+    codigo VARCHAR(20),
+    nombre VARCHAR(100),
+    cargaHoraria INT
+);
+
+CREATE TABLE comision (
+    idComision INT PRIMARY KEY,
+    idCurso INT,
+    estado VARCHAR(20),
+    cupo INT,
+    FOREIGN KEY (idCurso) REFERENCES curso(idCurso)
+);
+
+CREATE TABLE inscripcion (
+    idInscripcion INT AUTO_INCREMENT PRIMARY KEY,
+    documento INT,
+    idComision INT,
+    fecha DATE,
+    FOREIGN KEY (documento) REFERENCES persona(documento),
+    FOREIGN KEY (idComision) REFERENCES comision(idComision)
+);
+
+CREATE TABLE certificacion (
+    idCertificacion INT AUTO_INCREMENT PRIMARY KEY,
+    documento INT,
+    idCurso INT,
+    fecha DATE,
+    FOREIGN KEY (documento) REFERENCES persona(documento),
+    FOREIGN KEY (idCurso) REFERENCES curso(idCurso)
+);

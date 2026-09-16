@@ -1,0 +1,31 @@
+USE sgc_ctc;
+
+-- Consultar todas las personas
+SELECT * FROM persona;
+
+-- Consultar una persona por documento
+SELECT *
+FROM persona
+WHERE documento = 47556041;
+
+-- Consultar los cursos
+SELECT * FROM curso;
+
+-- Consultar las inscripciones
+SELECT * FROM inscripcion;
+
+-- Actualizar la jerarquía de una persona
+UPDATE persona
+SET jerarquia = 'Cabo'
+WHERE documento = 39115238;
+
+-- Verificar la actualización
+SELECT * FROM persona;
+
+-- Borrar una inscripción de prueba
+DELETE FROM inscripcion
+WHERE documento = 41430503
+AND idComision = 2;
+
+-- Verificar el borrado
+SELECT * FROM inscripcion;

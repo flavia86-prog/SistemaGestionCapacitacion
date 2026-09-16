@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/modelo/Comision.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/dao/ConexionBD.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/excepcion/ExcepcionNegocio.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/dao/PersonaDAO.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/dao/PruebaPersonaDAO.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/modelo/Certificacion.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/dao/PruebaConexion.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/sistemagestioncapacitacion/SistemaGestionCapacitacion.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/vista/FormularioPersona.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/modelo/Persona.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/dao/PruebaInsertarPersona.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/modelo/Inscripcion.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/SistemaGestionCapacitacion/src/modelo/Curso.java</file>
+        </group>
+    </open-files>
+</project-private>

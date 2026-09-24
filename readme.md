@@ -48,7 +48,3 @@ Dentro de la carpeta `sql` se incluyen los siguientes archivos:
 - `dao`: contiene las clases de acceso a datos.
 - `vista`: contiene el formulario de registro de personas.
 - `sql`: contiene los scripts de la base de datos.
-
-## Autora
-
-Flavia Eliana Almonacid

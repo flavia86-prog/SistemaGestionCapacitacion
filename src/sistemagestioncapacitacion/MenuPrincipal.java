@@ -14,6 +14,13 @@ public class MenuPrincipal {
         Scanner teclado = new Scanner(System.in);
         ArrayList<Persona> personas = new ArrayList<>();
         ArrayList<Curso> cursos = new ArrayList<>();
+        String[] jerarquias = {
+    "Bombero",
+    "Cabo",
+    "Sargento",
+    "Suboficial",
+    "Oficial"
+};
         int opcion;
 
         try {
@@ -36,6 +43,7 @@ public class MenuPrincipal {
             System.out.println("3. Mostrar personas");
             System.out.println("4. Mostrar cursos");
             System.out.println("5. Mostrar tipo de participante");
+            System.out.println("6. Mostrar jerarquias");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opcion: ");
 
@@ -143,8 +151,18 @@ public class MenuPrincipal {
                                 + participante.mostrarTipo()
                         );
                     }
+                    
                     break;
+                    
+                case 6:
+                   System.out.println("LISTADO DE JERARQUIAS");
 
+                   for (String jerarquia : jerarquias) {
+                    System.out.println("- " + jerarquia);
+                   }
+
+    break;
+    
                 case 0:
                     System.out.println("Saliendo del sistema...");
                     break;
